@@ -15,7 +15,7 @@ namespace EcommerceBssl.Data
         public int SubCategoryId { get; set; }
 
         public SubCategory SubCategory { get; set; }
-        public ICollection<ProductColour> ProductColours { get; set; }
-        public ICollection<Image> Images { get; set; }
+        public IList<ProductColour> ProductColours { get; set; }
+        public IList<Image> Images { get; set; }
     }
 }
